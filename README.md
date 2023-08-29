@@ -1,12 +1,15 @@
-# What is this?
+# What are these?
 
-These are my styleguide that I prefer to use, when writing my own projects. These guides includes instructions 
-on how to write and maintain my code, throughout the entire process of my work.
+These are my styleguide that I use, when writing my own projects and prefer to when working in a team. These 
+guides include instructions on how to write and maintain my code, throughout the entire process of my work-flow.
+
+[You can check the entire repo here](https://github.com/aaskorohodov/aaskorohodov), and it's
+[Python section here](https://github.com/aaskorohodov/aaskorohodov/tree/main/Python)
 
 # Table of contents
 
 <!-- TOC -->
-* [What is this?](#what-is-this)
+* [What are these?](#what-are-these)
 * [Table of contents](#table-of-contents)
 * [Structure](#structure)
 * [Where do I start?](#where-do-i-start-)
@@ -17,10 +20,10 @@ on how to write and maintain my code, throughout the entire process of my work.
 Guidelines are divided into 2 sections:
 
 1. JavaScript's guidelines (under heavy development)
-2. Python's guidelines (partially completed)
+2. [Python's guidelines](https://github.com/aaskorohodov/aaskorohodov/tree/main/Python) (partially completed)
 
 Each section is designed to include different aspects of writing and maintaining code, using one of these programming
-languages and all the infrastructure required.
+languages and all the required infrastructure.
 
 # Where do I start? 
 
