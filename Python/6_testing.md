@@ -19,15 +19,15 @@ Consider following these statements:
 
 - If a piece of code was not tested - it should be considered broken
 - There is no code too simple to be tested
-- If your function/method requires too many tests, to test all of its behaviours: split it into smaller
-- Do not test Python's build-in behaviour (0/0 will cause ZeroDivisionError each time, trust me)
-- Testing all basic segments of your code does not mean, that it works as expected - write integration tests
-- Having unit tests and integration tests does not mean, that you program works as expected - perform manual testing
-- Having manual testing complete does not mean, that your program works as expected - asks Users to test it
+- If your function/method requires too many tests: split this function/method
+- Do not test Python's build-in behaviour (0/0 **will** raise ZeroDivisionError each time, trust me)
+- Having all segments of your code been tested does not mean, that it works - write integration tests
+- Having unit tests and integration tests does not mean, that you program works - perform manual testing
+- Having manual testing does not mean, that your program works as expected - asks Users to test it
 
 In practice, there can be situations, where you push your code into production without testing it. In this case, you
-should notify any Users of yur code, that your code is not tested, therefor can cause unpredictable results or simply
-not working at all. If Users go well with that - go for it, but keep in mind, that this untested code need to be 
+should notify any Users, that your App is not tested, therefor can cause unpredictable results or simply
+not working at all. If Users go well with that - go for it, but keep in mind, that this untested code needs to be 
 tested in the future.
 
 # What to test
@@ -38,7 +38,8 @@ what it designed not to.
 Consider this example:
 
 ```python
-def summ(arg1: int | float, arg2: int | float) -> int | float:
+def summ(arg1: int | float,
+         arg2: int | float) -> int | float:
     """Sums 2 numbers
     
     Raises:

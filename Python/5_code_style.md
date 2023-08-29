@@ -233,7 +233,11 @@ The same goes for pathing arguments into methods/functions:
 
 ```python
 class MyClass:
-    def func(self, agr1: int, agr2: str, arg3: dict, arg4: list) -> None:
+    def func(self,
+             agr1: int,
+             agr2: str,
+             arg3: dict,
+             arg4: list) -> None:
         """Docstring"""
         
         pass
